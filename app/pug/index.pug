@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="./css/style.css")
+    title Document
+  body 
+    .slider 
+      each slid in baza
+        .slider__item
+          h1= slid.name 
+          p= slid.position
+    h1 salom
